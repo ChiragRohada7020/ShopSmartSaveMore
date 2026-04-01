@@ -39,8 +39,8 @@ This is a full-stack web application for comparing prices, reviews, ratings, and
 
 ### 🚨 Ports Used
 
-- Frontend: `3000`
-- Backend: `8080`
+- Frontend: `80`
+- Backend: `8082`
 - PostgreSQL: `5432`
 - Redis: `6379`
 
